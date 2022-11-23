@@ -32,3 +32,11 @@
   width: 100%;
   height: auto;
 }
+
+.navbar__hamburger--open {
+  display: block;
+}
+
+.navbar__hamburger--close {
+  display: none;
+}
