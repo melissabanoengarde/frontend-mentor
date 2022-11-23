@@ -12,4 +12,5 @@
   --very-dark-blue: hsl(240, 100%, 5%);
   --fs-p: 15px; /* 0.938rem */
   --inter: 'Inter', Arial, Helvetica, sans-serif;
+  --px-sm: 0 1rem;
 }

@@ -1,4 +1,5 @@
 @import url('./components/variables.css');
+@import url('./components/navbar.css');
 
 *,
 *::before,
@@ -14,4 +15,11 @@ html {
 
 body {
   font-family: var(--inter);
+  padding: var(--px-sm);
+}
+
+.sr-only {
+  position: absolute;
+  top: -1000px;
+  left: -10000px;
 }
