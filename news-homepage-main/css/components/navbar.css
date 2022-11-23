@@ -7,6 +7,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
 
   display: flex;
   justify-content: space-between;
@@ -23,7 +24,7 @@
   height: auto;
 }
 
-.navbar__menu-icon, .navbar__close-icon {
+.navbar__menu-icon, .close-icon {
   border: 1px solid red;
   position: relative;
 }
@@ -34,12 +35,12 @@
   /* height: 19px; */
 }
 
-.navbar__close-icon {
+.close-icon {
   width: 34px;
   height: 34px;
 }
 
-.navbar__menu-icon img, .navbar__close-icon img {
+.navbar__menu-icon img, .close-icon img {
   width: 100%;
   height: auto;
 
@@ -47,4 +48,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.navbar__nav {
+
 }
