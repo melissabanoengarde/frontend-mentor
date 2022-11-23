@@ -23,20 +23,28 @@
   height: auto;
 }
 
-.navbar__hamburger {
-  width: 42px;
-  height: 19px;
+.navbar__menu-icon, .navbar__close-icon {
+  border: 1px solid red;
+  position: relative;
 }
 
-.navbar__hamburger img {
+.navbar__menu-icon {
+  width: 42px;
+  height: 42px;
+  /* height: 19px; */
+}
+
+.navbar__close-icon {
+  width: 34px;
+  height: 34px;
+}
+
+.navbar__menu-icon img, .navbar__close-icon img {
   width: 100%;
   height: auto;
-}
 
-.navbar__hamburger--open {
-  display: block;
-}
-
-.navbar__hamburger--close {
-  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
