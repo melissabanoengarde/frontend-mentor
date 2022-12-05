@@ -11,6 +11,7 @@
   --dark-gray-blue: hsl(236, 13%, 42%);
   --very-dark-blue: hsl(240, 100%, 5%);
   --fs-p: 15px; /* 0.938rem */
+  --fs-mobile-nav: 18px;
   --inter: 'Inter', Arial, Helvetica, sans-serif;
   --px-sm: 0 1rem;
 }
