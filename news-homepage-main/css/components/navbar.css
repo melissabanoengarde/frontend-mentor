@@ -25,7 +25,7 @@
 }
 
 .navbar__menu-icon, .close-icon {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   position: relative;
 }
 
@@ -51,5 +51,29 @@
 }
 
 .navbar__nav {
+  width: 70%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  padding: 1.625rem 1.1875rem;
+  display: flex;
+  align-items: center;
 
+  background-color: salmon;
+  transition: right 0.35s ease-in-out;
+}
+
+.show {
+  right: 0;
+}
+
+.close-icon {
+  position: absolute;
+  top: 1.625rem;
+  right: 1.1875rem !important;
+}
+
+.nav {
+  padding-left: 0.375rem;
 }
